@@ -132,7 +132,7 @@ struct ContentView: View {
     }
     
     func lessThan3(word: String) -> Bool {
-        return word.count > 3
+        return word.count >= 3
     }
     
     func wordError(title: String, message: String) {
